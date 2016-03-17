@@ -28,6 +28,7 @@ public class App {
                 } else {
                     System.err.println("Could not delete " + NOTES_LOCATION);
                 }
+                return;
             }
             getHelp();
             return;
